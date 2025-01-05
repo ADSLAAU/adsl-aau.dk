@@ -1,0 +1,9 @@
+main {
+	display: flex;
+	flex-flow: column;
+	width: min(60em, 100%);
+}
+
+embed {
+	height: 100%;
+}

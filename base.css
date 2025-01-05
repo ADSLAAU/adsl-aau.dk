@@ -1,0 +1,60 @@
+body {
+	display: flex;
+	margin: 0;
+	height: 100dvh;
+	overflow: hidden;
+}
+
+nav {
+	display: flex;
+	width: 10em;
+	background: #111;
+	height: 100dvh;
+	overflow:auto;
+	flex-shrink:0;
+}
+
+nav ul {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: flex;
+}
+
+nav li * {
+	height: 100%;
+	width: 100%;
+	padding: 0.5em;
+	margin: 0;
+}
+
+nav li p {
+	color: #111;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight:bold;
+}
+
+nav img {
+	width: calc(100% + 1em);
+	margin: -0.5em;
+	padding: 0;
+}
+
+nav li a:hover {
+	background-color: #555;
+}
+
+main {
+	padding:1em;
+	overflow:auto;
+	max-width: 60em;
+}
+

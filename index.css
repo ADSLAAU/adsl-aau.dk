@@ -1,0 +1,10 @@
+.image-banner {
+	display:flex;
+	overflow: hidden;
+	max-height: 10em;
+}
+
+.image-banner img {
+	display: inline-block;
+	max-height: 10em;
+}
