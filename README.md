@@ -22,7 +22,7 @@ Ideally, the document's name should have format `YYYY-MM-DD.pdf` or `YYYY-MM-DD.
 To-Do List
 ==========
 
-- Collapsible lists (for easier navigation through regnskab etc)
+- Make collapsible lists prettier (having markers and bullets right next to each other is ugly)
 - Less code duplication between `build_referat.py` and `build_regnskab.py`
 
 In a wider time-frame:

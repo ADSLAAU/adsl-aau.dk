@@ -14,9 +14,10 @@ def walk(folder: str) -> str:
         if isfile(path):
             output += f"\t<li><a href=\"{path}\">{entry}</a></li>\n";
         elif isdir(path):
-            output += f"\t<li>{entry}:\n";
+            output += f"\t<li><details>"
+            output += f"\t<summary>{entry}</summary>\n";
             output += indent(walk(path), '\t\t');
-            output += "\t</li>\n";
+            output += f"\t</details></li>\n";
         else:
             raise ValueError(f"Entry \"{entry}\" at \"{path}\" is neither a file nor directory");
     output += "</ul>\n";
