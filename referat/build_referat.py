@@ -43,7 +43,7 @@ print('''
 				<li><a href="../vedtægter">Vedtægter</a></li>
 				<li><a href="../referat">Referater</a></li>
 				<li><p>lasaga</p></li>
-				<li><a href="../ADSL_Ansøgningsskema.docx">Søg om penge</a></li>
+				<li><a href="../ADSL_Ansøgningsskema.docx">Pengeformular</a></li>
 			</ul>
 		</nav>
 		<main>
